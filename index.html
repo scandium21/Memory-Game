@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Memory Game_s</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Memory Game</h1>
+    <h3 id="rating"><span id="stars">&#9733 &#9733 &#9733 3 Stars</span> <span id="refresh">&#8635</span></button></h3>
+    <!-- implements the board using HTML table -->
+    <div id="card_deck">
+        <div id="row0" class="rows"></div>
+        <div id="row1" class="rows"></div>
+        <div id="row2" class="rows"></div>
+        <div id="row3" class="rows"></div>
+    </div>
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p id = "modalcontent"></p>
+            <button class="modalBtn" id="newgame">Yes</button>
+            <button class="modalBtn" id="nonewgame">No</button>
+        </div>
+  </div>
+    <script src="design_div.js"></script>
+</body>
+</html>
