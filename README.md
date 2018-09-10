@@ -1,6 +1,6 @@
-## Memory-game
+# Memory-game
 
-# Intro
+## Intro
 
 * Click any square to start the game
 * Upon start, the timer starts to record time
@@ -10,7 +10,7 @@
 * When two nonmatching squares are being displayed, clicking on another square will have no effect
 * The symbols behind each square is randomly and uniquely generated using HTML symbols, thus each game will most likely have a unique set of symbols
 
-# Notes
+## Notes
 
 * This project is built from scratch, without using Udacity's starter code provided
 * An array of 16 elements is used to store square (card) ID's which are in the form of Number + Letter A or B, i.e. "2A" and "2B" forming a pair, there are total of 8 pairs
